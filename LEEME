@@ -1,0 +1,24 @@
+COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
+
+	CREANDO EL PROYECTO DE ESTA SECCIÓN - MISCELÁNEOS
+	
+		RECURSOS: 
+		- FONT-AWESOME: Libreria de ICONOS
+			http://fontawesome.io/
+
+		- Suponiendo que la libreria no tiene un metodo de instalación mediante npm,
+		
+		- Descargamos lo siguiente:
+			BOOTSTRAP (4.0)
+			https://getbootstrap.com/docs/4.0/getting-started/download/
+
+			JQUERY (Compressed, production 3.2.1 slim build)
+			https://jquery.com/download/
+		
+			TETHER (1.3.3, libreria que usa bootstrap)
+			http://tether.io/
+
+		- Creamos en el directorio src/assets los siguientes directorios:
+			B4: estilo y js
+			TETHER: tether/dist/js/tether.min.js
+			JQUERY: el archivo por defecto
