@@ -19,6 +19,34 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 			http://tether.io/
 
 		- Creamos en el directorio src/assets los siguientes directorios:
-			B4: estilo y js
+			BOOTSTRAP4: 
+				- CSS: bootstrap.min.css, bootstrap.min.css.map
+				- JS: bootstrap.min.js 
 			TETHER: tether/dist/js/tether.min.js
-			JQUERY: el archivo por defecto
+			JQUERY: el archivo por defecto	
+
+
+		1. Configurar el archivo ".angular-cli.json"
+			- Agregar en styles:
+				"assets/b4/css/bootstrap.min.css"
+			- Agregar en scripts:
+				"assets/jquery/jquery.slim.min.js",
+				"assets/tether/tether.min.js",
+				"assets/b4/js/bootstrap.min.js"
+
+
+		2. Reiniciar el servidor
+
+		3. Copiar la carpeta completa de font-awesome en "assets" y dejarlo con el 
+			siguiente nombre: font-awesome y agregar la ruta en "styles"
+
+			- Agregar en styles:
+				"assets/font-awesome/css/font-awesome.css"
+
+		4. Modificar la siguiente vista para mostrar un icono de font-awesome
+			src/app/app.component.html
+			
+
+
+
+
