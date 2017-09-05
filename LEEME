@@ -91,7 +91,36 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 			src/app/app.component.html
 
 
-	
+	APLICANDO CSS A UN SOLO COMPONENTE
+
+		1. Crear un componente llamado "css"
+			 ng g c components/css -it -is
+		
+		2. Codear el nuevo componente creado y agregarlo a la vista principal
+			src/app/app.component.html
+
+		3. Agregar a "styles" configuración de CSS
+			src/app/components/css/css.component.ts			
+
+			styles: [`
+			    p {
+			      color: red;
+			      font-size: 20px;
+			    }
+			    `
+			  ]
+
+
+		4. Agregar al fichero css del componente principal lo siguiente:
+			src/app/app.component.css
+			
+			p {
+			  color: blue !important ;
+			}
+
+		- Revisar las diferencias, uno es rojo, el otro azul
+
+
 
 			
 
