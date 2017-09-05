@@ -121,8 +121,22 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 		- Revisar las diferencias, uno es rojo, el otro azul
 
 
+	ngClass - AGREGANDO CLASES DE ESTILOS A NUESTROS ELEMENTOS HTML
 
-			
+		- El NgClass es una directiva que se va usar mucho más que el NgStyle, 
+		por lo general cuando se tiene muchas propiedades css , se debe usar una clase.
+		
+		1. Comentar la linea del componente CSS en la vista principal
+
+		2. Comentar las propiedades agregadas al css principal
+		
+		3. Crear un nuevo componente llamado clases
+			ng g c components/clases -is
+
+		4. Agregar la alerta en la vista del componente "clases"
+			src/app/components/clases/clases.component.html
 
 
-			
+
+
+
