@@ -76,7 +76,7 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 
 		- Eliminar el siguiente archivo: ng-style.component.spec.ts
 
-		4. Codear el componente "ngSTyle"
+		4. Codear el componente "ngStyle"
 			src/app/components/ng-style/ng-style.component.ts
 		
 			Una manera:
@@ -85,6 +85,14 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 			Otra manera:
 				<p [style.fontSize]=" '40px' ">
 				<p [style.fontSize.px]=" tamano ">
+
+		
+		5. Agregar el componente "ngStyle" al component principal de la applicación
+			src/app/app.component.html
+
+
+	
+
 			
 
 
