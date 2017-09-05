@@ -47,6 +47,8 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 			src/app/app.component.html
 			
 
-
+		ERROR: Propper.js
+		SOLVED: Instalar todos los ficheros del Bootstrap CDN
+			https://v4-alpha.getbootstrap.com/
 
 
