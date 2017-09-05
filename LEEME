@@ -52,3 +52,40 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 			https://v4-alpha.getbootstrap.com/
 
 
+	ngStyle Y SU USO CON DIRECTIVAS DE ATRIBUTOS
+		
+		- NgStyle = Es una directiva que permite aplicar estilos en el html en caliente
+		- Tres formas de aplicarlo:
+			1. Usando un objeto literal
+				<some-element [ngStyle]="{'font-style': styleExp}">...</some-element>
+			2. Mandando una expresión (con un punto)
+				<some-element [ngStyle]="{'max-width.px': widthExp}">...</some-element>
+			3. Recibiendo un objeto completo			
+				<some-element [ngStyle]="objExp">...</some-element>
+
+		
+		1. Crear el estilo .main-container
+			src/styles.css
+
+		2. Crear el directorio components dentro de "app"
+
+		3. Crear el componente "ngStyle" 
+			ng g c components/ngStyle -it -is
+			-it = inline template (en el mismo archivo)
+			-is = inline style (en el mismo archivo)
+
+		- Eliminar el siguiente archivo: ng-style.component.spec.ts
+
+		4. Codear el componente "ngSTyle"
+			src/app/components/ng-style/ng-style.component.ts
+		
+			Una manera:
+				<p [ngStyle]="{ 'font-size' : tamano + 'px', 'color' : 'red' }">
+			
+			Otra manera:
+				<p [style.fontSize]=" '40px' ">
+				<p [style.fontSize.px]=" tamano ">
+			
+
+
+			
