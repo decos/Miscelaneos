@@ -136,6 +136,31 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 		4. Agregar la alerta en la vista del componente "clases"
 			src/app/components/clases/clases.component.html
 
+		- Prueba 1
+			<div class="alert alert-info" role="alert">
+			es igual:
+			<div [ngClass]="'alert-info'" class="alert" role="alert">
+
+		- Prueba 2
+			.ts => alerta : string = "alert-danger";
+			.html => <div [ngClass]="alerta" class="alert" role="alert">
+
+		- Prueba 3
+			Agregar dos botones en la vista y al hacer clic en cada boton la alerta
+			debera cambiar de color.
+			src/app/components/clases/clases.component.html
+		
+		- Prueba 4
+			Utilizar un objeto para controlar una propiedad directa
+			
+			propiedades:Object = {
+    				danger:false
+		  	}
+
+		- Prueba 5
+			Al hacer clic en el boton "Cambiar" la etiqueta H3 (Propiedades) debe
+			modificarse.
+
 
 
 
