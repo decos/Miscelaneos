@@ -162,6 +162,28 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 			modificarse.
 
 
+	USANDO PROCESOS ASÍNCRONOS CON INDICADORES DE USUARIO
+		
+		1. Crear el atributo "loading" en la logica del componente clases
+
+		2. Crear un metodo "fecha" llamado "ejecutar" en la logica del componente clases
+
+		3. Se agrego un botón asíncrono en la vista del componente clases
+			src/app/components/clases/clases.component.html
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
 
 
 
