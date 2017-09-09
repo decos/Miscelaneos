@@ -172,14 +172,25 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 			src/app/components/clases/clases.component.html
 
 	
-	
+	DIRECTIVAS PERSONALIZADAS
+		
+		Supongamos que queremos ponerle una etiqueta a un componente HTML.
 
 
+		1. Agregamos un parrafo a la vista principal con la frase "Hola Mundo"
 
+		2. Crear un directorio llamado "directives"
 
-
-
-
+		3. Crear la directiva "resaltado" dentro del directorio "directives"
+			ng g d directives/resaltado
+		
+		- PAQUETE ElementRef: Referenciar un elemento.
+		- PAQUETE HostListener: Escuchar eventos.
+		- PAQUETE Input: Trabajar con variables que vienen desde la vista
+		
+ 		- La variable "nuevoColor" viene de afuera (vista)
+			@Input("appResaltado") nuevoColor:string;
+		
 
 
 
