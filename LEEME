@@ -192,7 +192,8 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 			@Input("appResaltado") nuevoColor:string;
 		
 
-
+		4. Creamos la funcionalidad de nuestra directiva y la enlazamos con el parrafo
+			creado en la vista.
 
 
 
