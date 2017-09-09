@@ -196,6 +196,28 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 			creado en la vista.
 
 
+	NgSwitch - MULTIPLES OPCIONES CON UNA SOLA DECISIÓN
+		
+		NgSwitch = Agarrar una condicion y evaluar multiples condiciones con ella
 
+		1. Crear el componente "ngSwitch"
+			ng g d components/ngSwitch -is
+			-is : inline style (estilo en el mismo archivo)
+
+		2. Agregar el *selector a la vista del componente
+
+		3. Agregar el atributo *alerta en la logica del componente
+
+		4. Codear la vista del componente para que al darle clic en el boton *Cambiar
+			la aleta se modifique y el texto tambien
+
+
+	
+
+
+
+
+
+	
 
 
