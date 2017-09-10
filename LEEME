@@ -276,6 +276,47 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 		2. Importamos el nuevo fichero creado en las rutas principales
 
 		3. Agregamos la constante USUARIO_ROUTES como valor de *children
+
+
+	OBTENIENDO PARAMETROS DEL PADRE DESDE LAS RUTAS HIJAS
+	
+		1. Importar el paquete *ActivatedRoute
+			import { ActivatedRoute } from '@angular/router';
+
+		2. Pasar en el constructor de la clase, un atributo de tipo *ActivatedRoute
+			- private router:ActivatedRoute
+	
+		3. Obtener los parametros codeando un observable (PADRE)
+			- this.router.params.subscribe( parametros => {
+			      console.log("RUTA PADRE");
+			      console.log(parametros);
+			    })
+	
+		4. btener los parametros codeando un observable (HIJA)
+			- this.router.parent.params.subscribe
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
 
 
