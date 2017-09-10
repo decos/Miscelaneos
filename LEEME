@@ -269,7 +269,13 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 		4. Agregar routerLinkActive y routerLink a la vista *usuario
 
 	
-	
+	SEPARAR LAS RUTAS HIJAS A UN ARCHIVO ESPECIFICO
+		
+		1. Creamos el fichero *usuario.routes.ts en el directorio *usuario
+
+		2. Importamos el nuevo fichero creado en las rutas principales
+
+		3. Agregamos la constante USUARIO_ROUTES como valor de *children
 		
 
 
