@@ -252,9 +252,25 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 		13. Agregar routerLinkActive y routerLink a la vista del navbar
 
 
+	RUTAS HIJAS
+
+		- Bootstrap: Navegación Interna
+			https://getbootstrap.com/docs/4.0/components/button-group/
+		
+		- Añadir el button group a la vista del componente *usuario
+
+		1. Configurar las rutas hijas en el fichero de rutas
+
+		2. Añadir las rutas a la vista *usuario haciendo:
+			<router-outlet></router-outlet>
+
+		3. Agregar el parametro 10 en la vista del componente navbar (usuario)
+
+		4. Agregar routerLinkActive y routerLink a la vista *usuario
+
 	
-
-
+	
+		
 
 
 
