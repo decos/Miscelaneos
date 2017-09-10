@@ -295,9 +295,30 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 		4. btener los parametros codeando un observable (HIJA)
 			- this.router.parent.params.subscribe
 
-
 	
+	CICLO DE VIDA COMPLETO DE UN COMPONENTE
 
+		ngOnInit : Cuando el componente se esta inicializando o despues del ngOnChanges
+
+		ngOnChanges : Se dispara cuando la data de las propiedades de nuestro componentes
+			cambian de alguna manera
+
+		ngDoCheck : Se dispara cada vez que se hace una revision del ciclo de deteccion
+			de cambios, es decir, cada vez que se haga algun cambio, una propiedad.
+
+		ngAfterContentInit : Se dispara cuando insertamos algun tipo de contenido como
+			<app-alguna-pagina>
+
+		ngAfterContentChecked : Se dispara despues de la revision del contenido insertado
+
+		ngAfterViewInit : Se dispara cuando se hace la inicializacion de los componentes
+			o de los componentes hijos
+
+ 		ngAfterViewChecked : Se dispara despues de cada una de las revisiones de los 
+			componentes hijos es efectuada
+
+		ngOnDestroy : Se dispara cuando destruimos o cuando nos vamos a mover de vista,
+			inclusive si hacemos un *ngIf del elemento
 
 
 
