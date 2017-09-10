@@ -212,8 +212,53 @@ COMPONENTES, DIRECTIVAS DE ATRIBUTOS, CICLO DE VIDA Y MÁS
 			la aleta se modifique y el texto tambien
 
 
+	RUTAS Y RUTAS HIJAS
+
+		1. Crear un nuevo componente llamado *home
+			ng g c components/home -it -is
+
+		2. Copiar los elementos html (comentados) de la vista principal  a la vista 
+			del nuevo componente creado (home - template)
+
+		3. Crear el fichero *app.routes.ts dentro del directorio *app
+			- Configurar la ruta home
+
+		4. Importar el fichero rutas al modulo *app y añadirlo a *imports
+
+		5. Añadir las rutas a la vista principal haciendo:
+			<router-outlet></router-outlet>
+		
+		6. Crear un nuevo componente llamado *usuario
+			ng g c components/usuario
+
+		7. Crear un nuevo componente llamado *usuarioNuevo dentro de *usuario (--flat)
+			ng g c components/usuario/usuarioNuevo -is -it --flat
+
+		8. Crear un nuevo componente llamado *usuarioDetalle dentro de *usuario (--flat)
+			ng g c components/usuario/usuarioDetalle -is -it --flat
+
+		9. Crear un nuevo componente llamado *usuarioEditar dentro de *usuario (--flat)
+			ng g c components/usuario/usuarioEditar -is -it --flat
+
+		10. Crear un nuevo componente llamado *navbar
+			ng g c components/navbar -is
+
+		11. Copiar un *navbar de la pagina de bootstrap
+			- https://getbootstrap.com/docs/4.0/components/navbar/
+			- Colocar el selector del *navbar en la vista principal
+
+		12. Agregar el componente *usuario a las rutas
+
+		13. Agregar routerLinkActive y routerLink a la vista del navbar
+
+
 	
 
+
+
+
+
+		
 
 
 
